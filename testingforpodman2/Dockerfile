@@ -1,7 +1,7 @@
 FROM eclipse-temurin
 WORKDIR /testingforpodman2
 
-COPY . .
+# COPY testingforpodman2 testingforpodman2
 
 COPY testingforpodman2/build.gradle testingforpodman2/gradlew testingforpodman2/gradlew.bat testingforpodman2/settings.graadle /testingforpodman2/
 COPY testingforpodman2/gradle /testingforpodman2/gradle
