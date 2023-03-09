@@ -1,4 +1,4 @@
-name: "Podman build"
+name: "Docker build"
 runs:
-  using: "podman"
+  using: "docker"
   image: "Dockerfile"
